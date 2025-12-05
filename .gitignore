@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+__pypackages__/
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# Byte-compiled / optimized / DLL files
+*.so
+*.pyd
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+*.whl
+
+# Testing / coverage / type check caches
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.tox/
+.nox/
+
+# Databases
+*.sqlite3
+*.db
+*.db-journal
+
+# Logs
+*.log
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+.ropeproject/
+
+# Environment files
+.env
+.env.*
+.python-version
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Optional frontend
+node_modules/
